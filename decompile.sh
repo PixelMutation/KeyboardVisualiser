@@ -1,0 +1,2 @@
+cd '/C/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin'
+ ./arm-none-eabi-objdump.exe --visualize-jumps=color -dC /d/docs/Pico/pico-project-generator/KeyboardVisualiser/build/KeyboardVisualiser.elf | less -R -S
